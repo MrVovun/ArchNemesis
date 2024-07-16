@@ -1,0 +1,46 @@
+# Ignore binary files
+*.exe
+*.dll
+*.lib
+*.obj
+*.pch
+*.pdb
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vscode
+
+# Ignore Unreal-specific files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.xcodeproj
+*.xcworkspace
+*.xcsettings
+*.xcscheme
+*.xcodeproj/
+*.xcworkspace/
+*.xcsettings/
+*.xcscheme/
+
+# Ignore build and configuration files
+Build/
+BuildConfiguration.xml
+Config/DefaultEditor.ini
+Config/DefaultEditorKeyBindings.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+Config/DefaultGameUserSettings.ini
+Config/DefaultInput.ini
+Config/DefaultLightmass.ini
+Config/DefaultScalability.ini
+Config/DefaultServer.ini
+
+# Ignore log files
+*.log
+
+# Ignore auto-generated Visual Studio files
+.vs/
